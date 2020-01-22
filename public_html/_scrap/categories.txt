@@ -1,0 +1,15 @@
+id, name
+20, Notebooki / Laptopy 14,1"
+21, Smartfony i telefony
+22, Notebooki / Laptopy 13,3"
+23, Notebooki / Laptopy 15,6"
+24, Karty graficzne AMD
+25, Pamiêci RAM SODIMM DDR4
+26, Pamiêci RAM DDR4
+27, Pamiêci RAM DDR3
+28, Pamiêci RAM SODIMM DDR3
+29, Pamiêci RAM SODIMM DDR2 
+30, Pamiêci RAM serwerowe
+31, Pamiêci RAM SODIMM DDR
+32, Karty graficzne NVIDIA
+33, Karty graficzne

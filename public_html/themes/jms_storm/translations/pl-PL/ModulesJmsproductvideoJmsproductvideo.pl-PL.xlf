@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-zone" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="103a701d4f88e6356586d55d107f0a96">
+        <source>Video's Product</source>
+        <target>Film produktu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9417faded161c0b9c4db9e54e3e481f5">
+        <source>Video Title</source>
+        <target>Tytuł filmu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9320d0d30774fc524d8cc30697203406">
+        <source>Video Links</source>
+        <target>Link filmu</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

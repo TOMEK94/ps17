@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="3aea774cdcd8f2c45549f10758a71323">
+        <source>Store information</source>
+        <target>Informazioni negozio</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="c6359db4a43cb7267a84b389229fd073">
+        <source>Call us: [1]%phone%[/1]</source>
+        <target>Chiamaci: [1]%phone%[/1]</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="da6eb684bd77243a780629a180c9d19b">
+        <source>Fax: [1]%fax%[/1]</source>
+        <target>Fax: [1]%fax%[/1]</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="077d21d48dae9586405c0d264f6d32e7">
+        <source>Email us: [1]%email%[/1]</source>
+        <target>Scrivici: [1]%email%[/1]</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo.tpl:58</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo-rich.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="1300caaefd15b839f37952dc7cc75d82">
+        <source>Call us:</source>
+        <target>Chiamaci:</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo-rich.tpl:36</note>
+      </trans-unit>
+      <trans-unit id="0e2fb5b02182fd28b9b96e86ed27838f">
+        <source>Fax:</source>
+        <target>Fax:</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo-rich.tpl:46</note>
+      </trans-unit>
+      <trans-unit id="7b3c308ad5117610d3ff17f4b6950c54">
+        <source>Email Contact</source>
+        <target>Email Contact</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo-rich.tpl:54</note>
+      </trans-unit>
+      <trans-unit id="a0bfe0853cf82bdf5dcb9b0bac76c357">
+        <source>Email us:</source>
+        <target>Inviaci un'e-mail:</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_contactinfo/ps_contactinfo-rich.tpl:56</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_currencyselector/ps_currencyselector.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="9009aa1a3c90e5ca6754c0b87bcdeafb">
+        <source>Select Currency:</source>
+        <target>Select Currency:</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_currencyselector/ps_currencyselector.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="77295c7d814e7397c55f64ec06313984">
+        <source>Currency:</source>
+        <target>Valuta:</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_currencyselector/ps_currencyselector.tpl:52</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="369ff5f4e7e3376e816a18f0dda86c14">
+        <source>Newsletter Signup</source>
+        <target>Newsletter Signup</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:53</note>
+      </trans-unit>
+      <trans-unit id="89b32d06af7eca5155ba8572dc3e4a8d">
+        <source>Sign up our Newsletter for Exclusive Discount codes</source>
+        <target>Sign up our Newsletter for Exclusive Discount codes</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:54</note>
+      </trans-unit>
+      <trans-unit id="1703f3f452307744b253f963a3bb8a6a">
+        <source>Get the latest news delivered daily</source>
+        <target>Get the latest news delivered daily</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:57</note>
+      </trans-unit>
+      <trans-unit id="757bd65faecb6314a84c50a4f84b27d4">
+        <source>Give us your email and you will be daily update with the latest events in detail!</source>
+        <target>Give us your email and you will be daily update with the latest events in detail!</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:58</note>
+      </trans-unit>
+      <trans-unit id="a679b2a496436499dd55383a12524ad6">
+        <source>Subscribe to Our Newsletter</source>
+        <target>Subscribe to Our Newsletter</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="48ab216300a849adc4f0df997b68b3ec">
+        <source><![CDATA[More special Deals, Events & Promotions]]></source>
+        <target><![CDATA[More special Deals, Events & Promotions]]></target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="871f287d1358ecd5ab4643cb1af14e75">
+        <source>Get the latest news</source>
+        <target>Get the latest news</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:65</note>
+      </trans-unit>
+      <trans-unit id="c3518a3e673cd5eb3a2d21291861a251">
+        <source>Delivered daily!</source>
+        <target>Delivered daily!</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="e4dcdc101dd6f85e6c163a92a34fc971">
+        <source>Give us your email and you will be daily updated with the latest events, in detail!</source>
+        <target>Give us your email and you will be daily updated with the latest events, in detail!</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:67</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_languageselector/ps_languageselector.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="9ff7d5d8633cca70ceb282dce77e6edf">
+        <source>Languages:</source>
+        <target>Languages:</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_languageselector/ps_languageselector.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="9332845cb238fd3f3dfa8a4f175ff719">
+        <source>Select Language:</source>
+        <target>Select Language:</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/ps_languageselector/ps_languageselector.tpl:61</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/templates/checkout/_partials/steps/payment.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Chiudi</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/templates/checkout/_partials/steps/payment.tpl:147</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/templates/cms/sitemap.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969">
+        <source>Sitemap</source>
+        <target>Mappa del sito</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/templates/cms/sitemap.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

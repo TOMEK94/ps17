@@ -1,0 +1,2 @@
+id_customer,id_gender,company,firstname,lastname,email,birthday,newsletter,newsletter_date_add,website,date_add,date_upd,ip_registration_newsletter,address1,address2,postcode,city,other,phone,phone_mobile,vat_number,dni,country
+7,0,"FHI CZASUNIA",Rafał,Zontek,biuro@presta-mod.pl,0000-00-00,0,"0000-00-00 00:00:00",,"2018-05-23 16:24:41","2018-05-23 16:24:41",,"Borowa 19",,43-512,Janowice,,880256134,,,,Polska

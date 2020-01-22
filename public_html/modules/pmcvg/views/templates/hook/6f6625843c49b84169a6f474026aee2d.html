@@ -1,0 +1,2526 @@
+<html>
+	<script type="text/javascript" src="https://gatito.pl/js/jquery/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="/back-office/themes/default/js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/back-office/themes/default/js/vendor/modernizr.min.js"></script>
+	<meta charset="utf-8">
+			
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+	<body style="padding: 0px !important;">
+		<style>
+			
+			@media print {
+				body {-webkit-print-color-adjust: exact;}
+			}
+			
+			.th {
+				-webkit-print-color-adjust: exact !important; 
+				background-color: #dcdcdc !important;
+				font-weight: bold;
+			}
+			.bl {
+				border-left: 1px solid !important;
+			}
+			.bt {
+				border-top: 1px solid !important;
+			}
+			.bb {
+				border-bottom: 1px solid !important;
+			}
+			.br {
+				border-right: 1px solid !important;
+			}
+			select {
+			    -webkit-appearance: none;
+			    -moz-appearance: none;
+			    text-indent: 1px;
+			    text-overflow: '';
+			}
+		</style>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="https://gatito.pl/img/faktura/1.png" style="width: 1000px;"/>
+					<div style="position: absolute; right: 40px; top: 90px; border: 0px; z-index: 9999;" for="numer">nr <input type="text" style="border: none; background: #EFF" value=""></div>
+					<div style="position: absolute; right: 40px; top: 120px; border: 0px; z-index: 9999;" for="numer">Data wystawienia: <input type="text" value="2018-05-28" style="border: none; background: #EFF"></div>
+					<div style="position: absolute; right: 40px; top: 150px; border: 0px; z-index: 9999;" for="numer">Data sprzedazy / Data zaliczki: <input type="text" value="2018-05-28" style="border: none; background: #EFF"></div>
+					<div style="position: absolute; left:  50px; top: 190px; border: 0px; z-index: 9999; font-size: 10px;">P.H.U."NIKA"<br/>Wrocławska 47 <br/>63-600 Kępno<br/>NIP: 6191088918</div>
+					<div style="position: absolute; right:  250px; top: 190px; border: 0px; z-index: 9999; font-size: 10px;">P.H.U."NIKA"<br/>Wrocławska 47 <br/>63-600 Kępno<br/>NIP: 6191088918</div>
+				</div>
+				<table class="table" style="font-size: 9px;">
+						<tr>
+							<td>
+								Lp.
+							</td>
+							<td>
+								Kod
+							</td>
+							<td>
+								Nazwa
+							</td>
+							<td>
+								PKWiU
+							</td>
+							<td>
+								Ilość
+							</td>
+							<td>
+								J.m.
+							</td>
+							<td>
+								Staw.<br/>VAT
+							</td>
+							<td>
+								Cena netto
+							</td>
+							<td>
+								Wart. netto
+							</td>
+						</tr>
+					<tbody>
+													<td>
+								1
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5055918616183">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Brokatowa ramka Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_1" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="1" type="text" value="11.00" />
+							</td>
+							<td>
+								<span class="total" id="total_1">11.00</span>
+							</td>
+						</tr>
+																			<td>
+								2
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5055918613311">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Lustereczko Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_2" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="2" type="text" value="13.00" />
+							</td>
+							<td>
+								<span class="total" id="total_2">13.00</span>
+							</td>
+						</tr>
+																			<td>
+								3
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_3" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="3" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_3">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								4
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_4" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="4" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_4">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								5
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5060491773802">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Kubek ceramiczny zmieniający kolor Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_5" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="5" type="text" value="20.00" />
+							</td>
+							<td>
+								<span class="total" id="total_5">20.00</span>
+							</td>
+						</tr>
+																			<td>
+								6
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_6" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="6" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_6">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								7
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_7" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="7" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_7">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								8
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5060491773802">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Kubek ceramiczny zmieniający kolor Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_8" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="8" type="text" value="20.00" />
+							</td>
+							<td>
+								<span class="total" id="total_8">20.00</span>
+							</td>
+						</tr>
+																			<td>
+								9
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_9" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="9" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_9">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								10
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_10" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="10" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_10">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								11
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8426842069876">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Piórnik Harry Potter"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_11" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="11" type="text" value="29.00" />
+							</td>
+							<td>
+								<span class="total" id="total_11">29.00</span>
+							</td>
+						</tr>
+																			<td>
+								12
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5051265724335">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Notatnik A5 Harry Potter (Hogwarts)"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_12" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="12" type="text" value="11.00" />
+							</td>
+							<td>
+								<span class="total" id="total_12">11.00</span>
+							</td>
+						</tr>
+																			<td>
+								13
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_13" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="13" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_13">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								14
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_14" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="14" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_14">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								15
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5060158854851">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Dron ziemny, wodny, powietrzny Ultra Terrain 3w1 Hot Wheels Bladez Drone Racerz"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_15" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="15" type="text" value="123.30" />
+							</td>
+							<td>
+								<span class="total" id="total_15">123.30</span>
+							</td>
+						</tr>
+																			<td>
+								16
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_16" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="16" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_16">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								17
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_17" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="17" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_17">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								18
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5050574342544">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Plakat Pusheen (Places Cats Belong)"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_18" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="18" type="text" value="6.00" />
+							</td>
+							<td>
+								<span class="total" id="total_18">6.00</span>
+							</td>
+						</tr>
+																			<td>
+								19
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5060491773802">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Kubek ceramiczny zmieniający kolor Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_19" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="19" type="text" value="20.00" />
+							</td>
+							<td>
+								<span class="total" id="total_19">20.00</span>
+							</td>
+						</tr>
+																			<td>
+								20
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_20" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="20" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_20">1.63</span>
+							</td>
+						</tr>
+												<tr>
+							<td colspan="9" style="border: none;">
+								<span style="margin-left: 340px; position: absolute;">Strona 1</span>
+							</td>
+						</tr> 
+						<tr>
+							<td colspan="9" style="border: none;">
+								<span style="margin-left: 338px; margin-top: 7px; position: absolute;">Strona 2</span>
+								<img src="http://gatito.pl/img/faktura/header.png" />
+							</td>
+						</tr>
+																			<td>
+								21
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_21" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="21" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_21">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								22
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8435333894057">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Ręcznik plażowy / kąpielowy Avengers"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_22" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="22" type="text" value="21.00" />
+							</td>
+							<td>
+								<span class="total" id="total_22">21.00</span>
+							</td>
+						</tr>
+																			<td>
+								23
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_23" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="23" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_23">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								24
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_24" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="24" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_24">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								25
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5901685620635">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Pościel Spiderman 140x200 cm "></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_25" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="25" type="text" value="49.40" />
+							</td>
+							<td>
+								<span class="total" id="total_25">49.40</span>
+							</td>
+						</tr>
+																			<td>
+								26
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5013138666609">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Lampka nocna z latarką Spiderman"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_26" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="26" type="text" value="35.54" />
+							</td>
+							<td>
+								<span class="total" id="total_26">35.54</span>
+							</td>
+						</tr>
+																			<td>
+								27
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_27" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="27" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_27">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								28
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_28" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="28" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_28">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								29
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5902729041263">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Poduszka Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_29" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="29" type="text" value="14.73" />
+							</td>
+							<td>
+								<span class="total" id="total_29">14.73</span>
+							</td>
+						</tr>
+																			<td>
+								30
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_30" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="30" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_30">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								31
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_31" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="31" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_31">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								32
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5060491773802">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Kubek ceramiczny zmieniający kolor Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_32" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="32" type="text" value="20.00" />
+							</td>
+							<td>
+								<span class="total" id="total_32">20.00</span>
+							</td>
+						</tr>
+																			<td>
+								33
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_33" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="33" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_33">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								34
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_34" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="34" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_34">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								35
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8435333889664">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Zegarek na rękę, długopis i pamiętnik Star Wars"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_35" type="text" style="border: none; background: #EFF; width: 15px;" value="5">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="35" type="text" value="25.00" />
+							</td>
+							<td>
+								<span class="total" id="total_35">125.00</span>
+							</td>
+						</tr>
+																			<td>
+								36
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_36" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="36" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_36">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								37
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_37" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="37" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_37">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								38
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8412497563197">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Mata plastikowa na biurko Cars 42x29 cm"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_38" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="38" type="text" value="2.00" />
+							</td>
+							<td>
+								<span class="total" id="total_38">2.00</span>
+							</td>
+						</tr>
+																			<td>
+								39
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_39" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="39" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_39">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								40
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_40" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="40" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_40">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								41
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5060491773802">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Kubek ceramiczny zmieniający kolor Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_41" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="41" type="text" value="20.00" />
+							</td>
+							<td>
+								<span class="total" id="total_41">20.00</span>
+							</td>
+						</tr>
+																			<td>
+								42
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_42" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="42" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_42">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								43
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_43" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="43" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_43">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								44
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8719323846753">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Namiot / domek Shimmer i Shine"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_44" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="44" type="text" value="35.00" />
+							</td>
+							<td>
+								<span class="total" id="total_44">35.00</span>
+							</td>
+						</tr>
+																			<td>
+								45
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_45" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="45" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_45">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								46
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_46" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="46" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_46">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								47
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8425611359163">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Maskotka Miraculum: Biedronka i Czarny Kot 36 cm"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_47" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="47" type="text" value="20.11" />
+							</td>
+							<td>
+								<span class="total" id="total_47">20.11</span>
+							</td>
+						</tr>
+																			<td>
+								48
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_48" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="48" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_48">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								49
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_49" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="49" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_49">10.00</span>
+							</td>
+						</tr>
+												<tr>
+							<td colspan="9" style="border: none;">
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<td colspan="9" style="border: none;">
+								<span style="margin-left: 338px; margin-top: 7px; position: absolute;">Strona 3</span>
+								<img src="http://gatito.pl/img/faktura/header.png" />
+							</td>
+						</tr>
+																			<td>
+								50
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8435333898345">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Zegarek na rękę Psi Patrol"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_50" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="50" type="text" value="15.50" />
+							</td>
+							<td>
+								<span class="total" id="total_50">15.50</span>
+							</td>
+						</tr>
+																			<td>
+								51
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_51" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="51" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_51">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								52
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_52" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="52" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_52">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								53
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8426842069852">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Torba na ramię Harry Potter"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_53" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="53" type="text" value="49.00" />
+							</td>
+							<td>
+								<span class="total" id="total_53">49.00</span>
+							</td>
+						</tr>
+																			<td>
+								54
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_54" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="54" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_54">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								55
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_55" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="55" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_55">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								56
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8425611343742">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Maskotka Psi Patrol – Everest 27 cm"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_56" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="56" type="text" value="29.64" />
+							</td>
+							<td>
+								<span class="total" id="total_56">29.64</span>
+							</td>
+						</tr>
+																			<td>
+								57
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="008421963249">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Maskotka pluszowa Zuma Psi Patrol 24 cm"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_57" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="57" type="text" value="31.48" />
+							</td>
+							<td>
+								<span class="total" id="total_57">31.48</span>
+							</td>
+						</tr>
+																			<td>
+								58
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_58" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="58" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_58">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								59
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5055114314500">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Dysk latający świecący Star Wars"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_59" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="59" type="text" value="3.28" />
+							</td>
+							<td>
+								<span class="total" id="total_59">3.28</span>
+							</td>
+						</tr>
+																			<td>
+								60
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8435507803021">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Ręcznik ponczo z kapturem Myszka Mickey"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_60" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="60" type="text" value="21.00" />
+							</td>
+							<td>
+								<span class="total" id="total_60">21.00</span>
+							</td>
+						</tr>
+																			<td>
+								61
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_61" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="61" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_61">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								62
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_62" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="62" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_62">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								63
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5055918626090">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Pluszowy piórnik Pusheen"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_63" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="63" type="text" value="19.00" />
+							</td>
+							<td>
+								<span class="total" id="total_63">19.00</span>
+							</td>
+						</tr>
+																			<td>
+								64
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_64" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="64" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_64">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								65
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_65" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="65" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_65">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								66
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5060158854523">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Dron wyścigowy Hot Wheels Stingray zdalnie sterowany Bladez Drone Racerz"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_66" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="66" type="text" value="144.90" />
+							</td>
+							<td>
+								<span class="total" id="total_66">144.90</span>
+							</td>
+						</tr>
+																			<td>
+								67
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_67" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="67" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_67">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								68
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_68" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="68" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_68">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								69
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5055114369371">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Plecak pluszowy Minionki 14 cm"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_69" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="69" type="text" value="36.90" />
+							</td>
+							<td>
+								<span class="total" id="total_69">36.90</span>
+							</td>
+						</tr>
+																			<td>
+								70
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_70" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="70" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_70">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								71
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_71" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="71" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_71">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								72
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="5414956406437">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Dywan Boisko Footbolowe"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_72" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="72" type="text" value="48.00" />
+							</td>
+							<td>
+								<span class="total" id="total_72">48.00</span>
+							</td>
+						</tr>
+																			<td>
+								73
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_73" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="73" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_73">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								74
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_74" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="74" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_74">10.00</span>
+							</td>
+						</tr>
+																			<td>
+								75
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="8427934961634">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Ręcznik plażowy / kąpielowy Pokemon"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_75" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="75" type="text" value="20.70" />
+							</td>
+							<td>
+								<span class="total" id="total_75">20.70</span>
+							</td>
+						</tr>
+																			<td>
+								76
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="Usługa dropshipping"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_76" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="76" type="text" value="1.63" />
+							</td>
+							<td>
+								<span class="total" id="total_76">1.63</span>
+							</td>
+						</tr>
+																			<td>
+								77
+							</td>
+							<td>
+								<input type="text" step="0.01" style="border: none; background: #EFF;" value="Trans">
+							</td>
+							<td style="height: 10px;">
+								<span style="display: inline;"><input type="text" step="0.01" style="border: none; background: #EFF; width: 300px;" value="transport"></span>
+							</td>
+							<td>
+								
+							</td>
+							<td>
+								<span>
+									<input class="qchange" id="quantity_77" type="text" style="border: none; background: #EFF; width: 15px;" value="1">
+								</span>
+							</td>
+							<td>
+								szt.
+							</td>
+							<td>
+								23
+							</td>
+							<td>
+								<input type="number" step="0.01" style="border: none; background: #EFF; width: 50px; " class="field_netto" f="77" type="text" value="10.00" />
+							</td>
+							<td>
+								<span class="total" id="total_77">10.00</span>
+							</td>
+						</tr>
+												<tr>
+							<td colspan="9" style="border: none;">
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<td colspan="9" style="border: none;">
+								<span style="margin-left: 338px; margin-top: 7px; position: absolute;">Strona 4</span>
+								<img src="http://gatito.pl/img/faktura/header.png" />
+							</td>
+						</tr>
+																		
+											</tbody>
+				</table>
+			</div>
+			<br/>
+			<br/><br/><br/><br/>			
+			<table class="table" style="font-size: 12px;">
+				<tr>
+					<td class="th bt bb bl" >Forma płatności</td>
+					<td class="th bt bb " >Termin</td>
+					<td class="th bt bb " ></td>
+					<td class="th bt bb " >Stawka</td>
+					<td class="th bt bb " >Netto</td>
+					<td class="th bt bb " >VAT</td>
+					<td class="th bt bb br" >Brutto</td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold; ">
+						<select style="border: none;">
+							<option>Przelew</option>
+							<option>Karta płatnicza</option>
+							<option>Płatność elektronicza</option>
+						</select>
+					</td>
+					<td><input type="text" style="border: none; background: #EFF" value="2018-06-02" /></td>
+					<td class="th bl bb">Razem</td>
+					<td class="th bb"></td>
+					<td class="th bb total_netto">1284.60</td>
+					<td class="th bb vat_total">295.46</td>
+					<td class="th bb br total_brutto">1580.06</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td class="th bl bb">W tym</td>
+					<td class="th bb">23</td>
+					<td class="th bb total_netto">1284.60</td>
+					<td class="th bb vat_total">295.46</td>
+					<td class="th bb br total_brutto">1580.06</td>
+				</tr>
+			</table>
+			
+			<table class="table" style="font-size: 12px;">
+				<tr>
+					<td class="th bt bb bl">Razem</td>
+					<td class="th bt bb"></td>
+					<td class="th bt bb br text-right total_brutto">1580.06 zł</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td style="width: 350px;">Słownie: <span class="slownie">jeden tysiąc pięćset osiemdziesiąt złotych 06/100 groszy</span></td>
+				</tr>
+				<tr>
+					<td>Zapłacono: </td>
+					<td><input type="text" class="zaplacono" style="border: none; background: #EFF" value="0.00"></td>
+					<td style="width: 350px;">Pozostaje do zapłaty: <input style="text-align: right; border: none; background: #EFF" class="dozaplaty" type="text" value="1580.06" /> zł</td>
+				</tr>
+			</table>
+			<img src="https://gatito.pl/img/faktura/nr_konta.JPG" /><br/><br/>
+			<img src="https://gatito.pl/img/faktura/bottom.png" style="width: 1000px;"/>
+		</div>
+		<script type="text/javascript">
+			$('.qchange').change(function(){
+				$(this).parent().parent().parent().find('.field_netto').change();
+			});
+			$('.field_netto').change(function(){
+				tval = parseFloat($(this).val().replace(',','.'));
+				$(this).val(tval.toFixed(2));
+				var at = $(this).attr('f');
+				var total = parseInt($('#quantity_'+at).val()) * parseFloat($(this).val().replace(',','.'));
+				$('#total_'+at).html(total.toFixed(2));
+				var total_netto = 0;
+				$.each($('.total'),function(){
+					total_netto += parseFloat($(this).text());
+				})
+				var total_brutto = total_netto * 1.23;
+				total_brutto = Math.round(total_brutto*100)/100;
+				total_netto = Math.round(total_netto * 100) / 100;
+				console.log(total_brutto);
+				console.log(total_netto);
+				var vat_total = total_brutto - total_netto;
+				$('.total_netto').html(total_netto.toFixed(2));
+				$('.total_brutto').html(total_brutto.toFixed(2));
+				$('.total_brutto').last().html(total_brutto.toFixed(2)+' zł');
+				$('.vat_total').html(vat_total.toFixed(2));
+				// $('.dozaplaty').val(total_brutto.toFixed(2));
+				$.get('http://gatito.pl/controllers/faktura.php?kwota='+total_brutto.toFixed(2),function(d) {
+					$('.slownie').html(d);
+				});
+				$('.zaplacono').change();
+			})
+
+			$('.zaplacono').change(function(){
+				var f = parseFloat($('.total_brutto').html());
+				var zaplacono = parseFloat($(this).val().replace(',','.'));
+				$('.dozaplaty').val((f-zaplacono).toFixed(2))
+				$(this).val(zaplacono.toFixed(2))
+			})
+		</script>
+	</body>
+</html>

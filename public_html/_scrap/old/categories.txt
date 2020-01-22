@@ -1,0 +1,8 @@
+id, name
+0, Smartfony i telefony
+1, Pamiêci RAM DDR3
+2, Notebooki / Laptopy 15,6"
+3, Pamiêci RAM SODIMM DDR4
+4, Notebooki / Laptopy 14,1"
+5, Pamiêci RAM DDR4
+6, Pamiêci RAM SODIMM DDR3

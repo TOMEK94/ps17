@@ -1,0 +1,88 @@
+.topbar .left .addon-box {
+	float: right;
+}
+.topbar .left .addon-box:not(:first-child) {
+	margin-right: 45px;
+}
+.topbar .left .addon-box:not(:first-child)::before {
+	left: 0;
+	right: -27px;
+}
+.topbar .right .languages-info.type2 .flag {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.topbar .right .addon-box:not(:first-child) {
+	margin-left: 40px;
+	margin-right: 0;
+}
+.topbar .right #_desktop_user_info {
+	padding-right: 25px;
+	padding-left: 0;
+}
+.topbar .right #_desktop_user_info .user-info > a::before {
+	right: -25px;
+	left: auto;
+}
+.topbar .right .addon-box {
+	float: left;
+}
+.topbar .right .addon-box:not(:first-child)::after {
+	right: auto;
+	left: -20px;
+}
+.topbar .languages-info.type4 .flag {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.topbar #social_block ul a {
+	margin-right: 0;
+	margin-left: 17px;
+}
+.header .right .addon-box {
+	float: left;
+}
+.header .right .addon-box:not(:first-child) {
+	margin-left: 40px;
+	margin-right: 0;
+}
+.header .search-box .close-search {
+	left: 40px;
+	right: auto;
+}
+.header .search-box .searchbox .button-search {
+	left: auto;
+	border-radius: 3px 0px 0px 3px;
+	right: -2px;
+}
+.newsletter .block_content .addon-title {
+	margin-left: 30px;
+	margin-right: 0;
+}
+.newsletter .form-group .newsletter-btn {
+	border-radius: 3px 0px 0px 3px;
+}
+.service .row .layout-column:not(:last-child) .feature-box::after {
+	right: auto;
+	left: -10px;
+}
+.service .feature-box i {
+	margin-right: 0;
+	margin-left: 15px;
+}
+.footer_t .contact-info li {
+	padding-right: 35px;
+	padding-left: 0;
+}
+.footer_t .contact-info li.address {
+	padding-left: 100px;
+	padding-right: 35px;
+}
+.footer_t .contact-info li::before {
+	left:auto;
+	right: 0;
+}
+.footer_t #social_block ul li {
+	margin-left: 7px;
+	margin-right: 0;
+}

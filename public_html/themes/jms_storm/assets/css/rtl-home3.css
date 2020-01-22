@@ -1,0 +1,120 @@
+.topbar .left .addon-box {
+    float: right;
+}
+.topbar .left .addon-box:not(:first-child) {
+  margin-right: 45px;
+  margin-left: 0;
+}
+.topbar .left .addon-box:not(:first-child)::before {
+  right: -27px;
+  left: auto;
+}
+.topbar .right #_desktop_user_info .user-info > a::before {
+  left: auto;
+  right: -25px;
+}
+.topbar .right .addon-box {
+  float: left; }
+
+.topbar .right .addon-box:not(:first-child) {
+  margin-left: 41px;
+  margin-right: 0; }
+
+.topbar .right .addon-box:not(:first-child)::after {
+  left: -21px;
+  right: auto; }
+
+.header .right .addon-box {
+    float: left;
+}
+.header .right .addon-box:not(:first-child) {
+    margin-left: 40px;
+    margin-right: 0;
+}
+.header .right #cart_block .text-custom {
+    padding-right: 16px;
+    padding-left: 0;
+}
+.service .feature-img {
+  margin-left: 15px;
+  margin-right: 0;
+}
+.service .feature-img::after {
+  right: auto;
+  left: -6px;
+  border-right: 6px solid #3700ff;
+  border-left: 0;
+}
+.slides .jms-slide-content{
+  text-align: left;
+}
+.menu .right .text {
+  padding-right: 17px;
+  padding-left: 0;
+}
+.menu .jms-megamenu .nav > li.home {
+    padding-right: 0;
+    padding-left: 28px;
+}
+.on_sale .addon-title h3 {
+  float: right;
+}
+.on_sale .addon-title .jms-tab {
+  float: left;
+}
+.on_sale .right .product-box::after {
+  display: none;
+}
+.p_banner .layout-column{
+  float: right !important;
+}
+.footer_t .contact .storm-headset {
+  padding-left: 20px;
+  padding-right: 0; }
+.footer_t #social_block ul {
+  text-align: left;
+}
+.footer_t .center ul li a::after {
+  right: auto;
+  left: -18px;
+}
+.footer_t .contact .storm-pin {
+  padding-left: 10px;
+  padding-right: 0; }
+
+.footer_t #social_block ul > li {
+  margin-right: 7px;
+  margin-left: 0;
+}
+
+.footer_t .row_2 ul li:not(:last-child)::before {
+  left: -2px;
+  right: auto; }
+.footer_m .contact-info li {
+  padding-left: 0;
+  padding-right: 35px;
+}
+.footer_m .contact-info li.address {
+  padding-left: 100px;
+  padding-right: 35px;
+}
+.footer_m .contact-info li::before {
+  right: 0;
+  left: auto;
+}
+#footer .newsletter .block_content .addon-title {
+  margin-left: 30px;
+}
+.footer_b .right p {
+  float: left; }
+
+.footer_b .right img {
+  margin-right: 5px !important; }
+
+#footer .newsletter .form-group .newsletter-btn {
+  border-radius: 3px 0px 0px 3px;
+}
+
+#footer .addon-title + ul li a::before {
+  padding-left: 3px;
+  padding-right: 0; }

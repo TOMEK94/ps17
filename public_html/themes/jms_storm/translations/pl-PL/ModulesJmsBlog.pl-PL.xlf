@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-zone" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="e727b00944f81e1d0a95c12886ac4641">
+        <source>Archive</source>
+        <target>Archiwum</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="efeb369cccbd560588a756610865664c">
+        <source>In</source>
+        <target>W</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0eceeb45861f9585dd7a97a3e36f85c6">
+        <source>Created</source>
+        <target>Utworzono</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ed4832a84ee072b00a6740f657183598">
+        <source>Views</source>
+        <target>Wyświetleń</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1bd6219fd227e3d67f6d07d06c11b5ac">
+        <source>Sorry, dont have any category in this section</source>
+        <target>Przepraszamy, nie ma żadnej kategorii w tej sekcji</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1b32dbc17528e74a357035f2efe71662">
+        <source>Blog Images</source>
+        <target>Zdjęcia bloga</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="12d0a49580e2aae93bf1e3c50ac75dda">
+        <source>Sorry, dont have any post in this category</source>
+        <target>Przepraszamy, nie mam żadnych postów w tej kategorii</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b41b1fd32fe378e592693128eed809c2">
+        <source>Your email address will not be published</source>
+        <target>Twoj adres e-mail nie bedzie opublikowany</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="614cffa523202658a898e34a5d94d05e">
+        <source>Your Name</source>
+        <target>Twoje imię</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="01557660faa28f8ec65992d1ddbb7b79">
+        <source>Your Email</source>
+        <target>E-mail</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="76f62afe72f88cdeb5b4a0291501da15">
+        <source>Your Website</source>
+        <target>Twoja strona internetowa</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e868dd111353d296c2a78c9808c21337">
+        <source>Your Comment</source>
+        <target>Komentarz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7a8dbd683001159655afc3f4935b3fd4">
+        <source>Submit Comment</source>
+        <target>Zatwierdź komentarz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1768a313b237a2edc2c4c0fbee60edcb">
+        <source>Your comment submited</source>
+        <target>Twój komentarz został przesłany</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9031a28ed1c50f2485bb0fa4b299ffab">
+        <source>Please waiting approve from Admin</source>
+        <target>Proszę czekać na zatwierdzenie przez administratora</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba">
+        <source>Comments</source>
+        <target>Komentarze</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5f632aa17759e66788e5eddffc496db7">
+        <source>Please Login to comment</source>
+        <target>Zaloguj się, aby skomentować</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e1cbdfece10fcbff6510aaa59f2647a0">
+        <source>Image Blog</source>
+        <target>Zdjęcie bloga</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="49ee3087348e8d44e1feda1917443987">
+        <source>Name</source>
+        <target>Imię</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>E-mail</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5f94404bf7a236db3599df0135a590ac">
+        <source>Post comment</source>
+        <target>Wyślij komentarz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a6fd78860d26b06c8964eb268f219dfe">
+        <source>In:</source>
+        <target>W:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4bee2b3831647c993520646d713e9b85">
+        <source>Posted: </source>
+        <target>Wysłano:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a1c24538800bb7d6fb1c489b2aaeb82a">
+        <source>View(s): </source>
+        <target>Wyświetlenia:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Czytaj więcej</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="726bdbbff8343d15cdc8dae8a2856364">
+        <source>Comments: </source>
+        <target>Komentarze:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="970650dd625bb891d7209fbcfce254cf">
+        <source>Sorry, dont have any post in this tag</source>
+        <target>Przepraszamy, nie mam żadnych postów w tym tagu</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

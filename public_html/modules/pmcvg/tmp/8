@@ -1,0 +1,2 @@
+id_customer,id_gender,company,firstname,lastname,email,birthday,newsletter,newsletter_date_add,website,date_add,date_upd,ip_registration_newsletter,address1,address2,postcode,city,other,phone,phone_mobile,vat_number,dni,country
+8,0,Anonymous,Anonymous,Anonymous,biuro@presta-mod.pl,0000-00-00,0,"0000-00-00 00:00:00",,"2018-05-23 10:49:10","2018-05-23 10:49:10",,Anonymous,Anonymous,00-000,Anonymous,Anonymous,000000000,Anonymous,Anonymous,Anonymous,Polska

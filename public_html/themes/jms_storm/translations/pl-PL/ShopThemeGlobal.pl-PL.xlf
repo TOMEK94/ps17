@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-zone" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969">
+        <source>Sitemap</source>
+        <target>Mapa strony</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Zamknij</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="77295c7d814e7397c55f64ec06313984">
+        <source>Currency:</source>
+        <target>Waluta:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="077d21d48dae9586405c0d264f6d32e7">
+        <source>Email us: [1]%email%[/1]</source>
+        <target>E-mail: [1]%email%[/1]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="da6eb684bd77243a780629a180c9d19b">
+        <source>Fax: [1]%fax%[/1]</source>
+        <target>Fax: [1]%fax%[/1]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c6359db4a43cb7267a84b389229fd073">
+        <source>Call us: [1]%phone%[/1]</source>
+        <target>Telefon: [1]%phone%[/1]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3aea774cdcd8f2c45549f10758a71323">
+        <source>Store information</source>
+        <target>Informacje o sklepie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a0bfe0853cf82bdf5dcb9b0bac76c357">
+        <source>Email us:</source>
+        <target>E-mail:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0e2fb5b02182fd28b9b96e86ed27838f">
+        <source>Fax:</source>
+        <target>Fax:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1300caaefd15b839f37952dc7cc75d82">
+        <source>Call us:</source>
+        <target>Telefon:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7b3c308ad5117610d3ff17f4b6950c54">
+        <source>Email Contact</source>
+        <target>Kontakt e-mail</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9009aa1a3c90e5ca6754c0b87bcdeafb">
+        <source>Select Currency:</source>
+        <target>Wybierz walutę:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="369ff5f4e7e3376e816a18f0dda86c14">
+        <source>Newsletter Signup</source>
+        <target>Zapisz się do newslettera</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="89b32d06af7eca5155ba8572dc3e4a8d">
+        <source>Sign up our Newsletter for Exclusive Discount codes</source>
+        <target>Zapisz się do naszego newslettera, aby uzyskać ekskluzywne kody rabatowe</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1703f3f452307744b253f963a3bb8a6a">
+        <source>Get the latest news delivered daily</source>
+        <target>Otrzymuj najnowsze wiadomości codziennie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="757bd65faecb6314a84c50a4f84b27d4">
+        <source>Give us your email and you will be daily update with the latest events in detail!</source>
+        <target>Podaj nam swój adres e-mail, a będziesz codziennie otrzymywać szczegółowe informacje o najnowszych wydarzeniach!</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a679b2a496436499dd55383a12524ad6">
+        <source>Subscribe to Our Newsletter</source>
+        <target>Zapisz się do naszego newslettera</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="48ab216300a849adc4f0df997b68b3ec">
+        <source><![CDATA[More special Deals, Events & Promotions]]></source>
+        <target>Więcej specjalnych ofert, wydarzeń i promocji</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="871f287d1358ecd5ab4643cb1af14e75">
+        <source>Get the latest news</source>
+        <target>Otrzymuj najnowsze wiadomości</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c3518a3e673cd5eb3a2d21291861a251">
+        <source>Delivered daily!</source>
+        <target>Dostarczane codziennie!</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9332845cb238fd3f3dfa8a4f175ff719">
+        <source>Select Language:</source>
+        <target>Wybierz język:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9ff7d5d8633cca70ceb282dce77e6edf">
+        <source>Languages:</source>
+        <target>Języki:</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

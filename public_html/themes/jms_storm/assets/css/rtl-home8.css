@@ -1,0 +1,80 @@
+.topbar .left .addon-box {
+	float: right;
+}
+.topbar .right .languages-info.type2 .flag {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.topbar .right .addon-box:not(:first-child) {
+	margin-left: 40px;
+	margin-right: 0;
+}
+.topbar .right #_desktop_user_info {
+	padding-right: 25px;
+	padding-left: 0;
+}
+.topbar .right #_desktop_user_info .user-info > a::before {
+	right: -25px;
+	left: auto;
+}
+.topbar .right .addon-box {
+	float: left;
+}
+.topbar .right .addon-box:not(:first-child)::after {
+	right: auto;
+	left: -20px;
+}
+.topbar #social_block ul li a{
+	margin-left: 0 !important;
+	margin-right: 15px;
+}
+.header .right #cart_block .text-custom {
+	padding-right: 12px;
+	padding-left: 0;
+}
+.header .right .addon-box {
+	float: left;
+}
+.header .right .addon-box:not(:first-child) {
+	margin-left: 29px;
+	margin-right: 0;
+}
+.header .search-box .close-search {
+	left: 40px;
+	right: auto;
+}
+.header .search-box .searchbox .button-search {
+	left: auto;
+	border-radius: 3px 0px 0px 3px;
+	right: -2px;
+}
+.cates .categories-wrapper .categoy-image {
+	margin-left: 7px;
+	margin-right: 0;
+}
+.banner_full .include_content_s,
+.banner_full .include_content_s .btn-shopnow {
+	float: left;
+}
+.banner_full .include_content_s p{
+	text-align: left;
+}
+.instagram_title .addon-title i {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.footer_t .contact .contact_info i {
+	margin-right: 0;
+	margin-left: 13px;
+}
+.footer_t .contact .phone i {
+	margin-right: 0;
+	margin-left: 13px;
+}
+.footer_b ul {
+	text-align: left;
+}
+.footer_b #social_block ul li a {
+	margin-left: 0 !important;
+	margin-right: 15px;
+}

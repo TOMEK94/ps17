@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-zone" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="efeb369cccbd560588a756610865664c">
+        <source>In</source>
+        <target>W</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ed4832a84ee072b00a6740f657183598">
+        <source>Views</source>
+        <target>Wyświetlenia</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Czytaj więcej</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba">
+        <source>Comments</source>
+        <target>Komentarze</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0be8406951cdfda82f00f79328cf4efc">
+        <source>Comment</source>
+        <target>Komentarz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="691d502cfd0e0626cd3b058e5682ad1c">
+        <source>items</source>
+        <target>przedmiotów</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="447b7147e84be512208dcc0995d67ebc">
+        <source>item</source>
+        <target>przedmiot</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="87bdf2b1731f2c475caf4afc3eae14d0">
+        <source>No categories</source>
+        <target>Brak kategorii</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d9aaf75f685857135f722f31e321ac92">
+        <source>View All Product</source>
+        <target>Wyświetl wszystkie produkty</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="06dde14d22c7e889094002c3d93f9018">
+        <source>Instagram Image</source>
+        <target>Zdjecie z instagrama</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="be9256c578fa1d4e043b8de00a808317">
+        <source>Find our stores</source>
+        <target>Znajdź nasze sklepy</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c46def90c17d00226139900cdf9abf14">
+        <source>Choose Store Location</source>
+        <target>Wybierz lokalizację sklepu</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

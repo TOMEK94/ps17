@@ -1,0 +1,560 @@
+2018-04-09 10:17:10 - Setting 1
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+<li><a href='index.php?controller=AdminProducts&id_product=1&updateproduct&token=' target='_blank'>test1_1</a></li>
+2018-04-09 10:17:55 - 1
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+2018-04-09 10:18:22 - 1
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+2019-11-07 20:05:24 - TEST
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Main Image...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Main Image...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Main Image...finished
+Insert Addtion Image...finished
+2019-11-07 20:08:42 - TEST
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Main Image...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Main Image...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Main Image...finished
+Insert Addtion Image...finished
+2019-11-07 20:11:13 - TEST
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update ID category default Product...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Main Image...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update ID category default Product...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Main Image...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update ID category default Product...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Main Image...finished
+Update Addtion Image...finished
+2019-11-07 20:37:06 - TSET1
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Addtion Image...finished
+Insert product...finished
+Insert product_shop...finished
+Insert Stock Available...finished
+Insert product_lang...finished
+Insert Main category...finished
+Insert Category associated...finished
+Insert Category associated ID...finished
+Insert Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+2019-11-07 20:47:49 - TEST2
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+2019-11-08 09:20:22 - TEST3
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+2019-11-08 09:20:22 - TEST3
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+2019-11-08 09:20:22 - TEST3
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+2019-11-08 09:20:23 - TEST3
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+2019-11-08 09:20:23 - TEST3
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished
+Update product...finished
+Update product_shop...finished
+Update product_lang...finished
+Update Category associated...finished
+Update Category associated ID...finished
+Update Addtion Image...finished

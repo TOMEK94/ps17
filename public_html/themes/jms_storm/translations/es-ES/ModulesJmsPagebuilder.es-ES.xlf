@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonblog_h20.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="efeb369cccbd560588a756610865664c">
+        <source>In</source>
+        <target>In</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonblog_h20.tpl:95</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonblog_h8.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="ed4832a84ee072b00a6740f657183598">
+        <source>Views</source>
+        <target>Views</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonblog_h8.tpl:94</note>
+      </trans-unit>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba">
+        <source>Comments</source>
+        <target>Comments</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonblog_h8.tpl:103</note>
+      </trans-unit>
+      <trans-unit id="0be8406951cdfda82f00f79328cf4efc">
+        <source>Comment</source>
+        <target>Comment</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonblog_h8.tpl:105</note>
+      </trans-unit>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46">
+        <source>Read more</source>
+        <target>Read more</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonblog_h8.tpl:115</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addoncategoryshow2_h6.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="87bdf2b1731f2c475caf4afc3eae14d0">
+        <source>No categories</source>
+        <target>No categories</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addoncategoryshow2_h6.tpl:73</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addoncategoryshow2_h15.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="691d502cfd0e0626cd3b058e5682ad1c">
+        <source>items</source>
+        <target>items</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addoncategoryshow2_h15.tpl:61</note>
+      </trans-unit>
+      <trans-unit id="447b7147e84be512208dcc0995d67ebc">
+        <source>item</source>
+        <target>item</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addoncategoryshow2_h15.tpl:63</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonhotdeal_h4.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="d9aaf75f685857135f722f31e321ac92">
+        <source>View All Product</source>
+        <target>View All Product</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonhotdeal_h4.tpl:102</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addoninstagram_footer.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="0e7e6722ad5f6e0bcaab6667e546635d">
+        <source>INSTAGRAM</source>
+        <target>INSTAGRAM</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addoninstagram_footer.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="06dde14d22c7e889094002c3d93f9018">
+        <source>Instagram Image</source>
+        <target>Instagram Image</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addoninstagram_footer.tpl:34</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonmaplocation.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="be9256c578fa1d4e043b8de00a808317">
+        <source>Find our stores</source>
+        <target>Find our stores</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonmaplocation.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="c46def90c17d00226139900cdf9abf14">
+        <source>Choose Store Location</source>
+        <target>Choose Store Location</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmspagebuilder/views/templates/hook/addonmaplocation.tpl:94</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

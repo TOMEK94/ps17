@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/pl/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/pl/blog/feed.xml</link>
+    <description></description>
+    <language>pl</language>
+     <atom:link href="https://www.prestashop.com/pl/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>E-commerce: lista dziesięciu błędów, których należy unikać</title>
+    <link>https://www.prestashop.com/pl/blog/lista-dziesieciu-bledow-ktorych-nalezy-unikac</link>
+    <description>Aby zdobyć klienta i zbudować jego lojalność, Twoja strona musi oferować nieskazitelnie idealne doświadczenie.</description>
+     <pubDate>Mon, 16 Dec 2019 11:47:58 +0100</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/lista-dziesieciu-bledow-ktorych-nalezy-unikac</guid>
+  </item>
+  <item>
+    <title>PrestaShop Checkout: zupełnie nowe proste rozwiązanie płatnicze! (już dostępny)</title>
+    <link>https://www.prestashop.com/pl/blog/prestashop-checkout</link>
+    <description>PrestaShop i PayPal połączyły siły, by osłodzić Wam koniec wakacji dzięki najlepszemu prostemu rozwiązaniu płatniczemu.</description>
+     <pubDate>Mon, 09 Dec 2019 10:24:58 +0100</pubDate>
+ <dc:creator>MLNielsen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/prestashop-checkout</guid>
+  </item>
+  <item>
+    <title>Czym są giełdy i jak je w pełni wykorzystać?</title>
+    <link>https://www.prestashop.com/pl/blog/czym-sa-gieldy</link>
+    <description>Czy próbowałaś/-eś sprzedawać swoje produkty na giełdach, aby zwiększyć widoczność swoich produktów?</description>
+     <pubDate>Tue, 26 Nov 2019 14:28:53 +0100</pubDate>
+ <dc:creator>Eva Lacalle</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/czym-sa-gieldy</guid>
+  </item>
+  <item>
+    <title>Livechat – idealne narzędzie do zwiększenia sprzedaży w sklepie</title>
+    <link>https://www.prestashop.com/pl/blog/livechat-idealne-narzedzie-zwiekszenia-sprzedazy-sklepie</link>
+    <description>Livechat to nie tylko kolejny kanał komunikacji z klientami, a przede wszystkim skuteczny sposób na autonomiczne pozyskiwanie leadów oraz poprawienie poziomu zarówno obsługi, jak i zadowolenia klie</description>
+     <pubDate>Wed, 30 Oct 2019 15:17:46 +0100</pubDate>
+ <dc:creator>Łukasz Gwara</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/livechat-idealne-narzedzie-zwiekszenia-sprzedazy-sklepie</guid>
+  </item>
+  <item>
+    <title>Kampania produktowe Product Listing Ads (PLA) – jak zwiększyć sprzedaż?</title>
+    <link>https://www.prestashop.com/pl/blog/kampania_produktowe-product-listing-ads</link>
+    <description>W poniższym wpisie zagłębimy się w temat jednych z najskuteczniejszych form promocji sklepu internetowego – mianowicie kampanii Produktowych Google Ads (ang. Google Product Listing Ads).</description>
+     <pubDate>Mon, 28 Oct 2019 12:08:25 +0100</pubDate>
+ <dc:creator>PrestaPros</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/kampania_produktowe-product-listing-ads</guid>
+  </item>
+  <item>
+    <title>Zwroty – jak wykorzystać szansę na zwiększenie satysfakcji klientów</title>
+    <link>https://www.prestashop.com/pl/blog/zwroty-jak-wykorzystac-szanse-zwiekszenie-satysfakcji-klientow</link>
+    <description>Polski rynek e-commerce rośnie o ponad 18% rocznie i rozwija się najszybciej w Europie1. Aby mieć pełny obraz sytuacji, warto zwrócić uwagę na globalne obroty w handlu internetowym.</description>
+     <pubDate>Fri, 25 Oct 2019 10:46:38 +0200</pubDate>
+ <dc:creator>Norbert Kręcicki</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/zwroty-jak-wykorzystac-szanse-zwiekszenie-satysfakcji-klientow</guid>
+  </item>
+  <item>
+    <title>Na czym polega błąd HTTP 404 i jak go naprawić na stronie swojego sklepu?</title>
+    <link>https://www.prestashop.com/pl/blog/blad-http-404-nie-znaleziono-strony-wytlumaczenie-i-rozwiazanie</link>
+    <description>Czy słyszałaś/-eś już o „błędach HTTP 404”?</description>
+     <pubDate>Wed, 16 Oct 2019 14:27:31 +0200</pubDate>
+ <dc:creator>José Facchin 1</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/blad-http-404-nie-znaleziono-strony-wytlumaczenie-i-rozwiazanie</guid>
+  </item>
+  <item>
+    <title>Lokalne SEO - 5 najlepszych praktyk</title>
+    <link>https://www.prestashop.com/pl/blog/lokalne-seo-5-najlepszych-praktyk</link>
+    <description>Widoczność w lokalnych wynikach wyszukiwania to cel każdej firmy, której działalność związana jest z określonym obszarem</description>
+     <pubDate>Fri, 11 Oct 2019 11:29:04 +0200</pubDate>
+ <dc:creator>Jash Technologie</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/lokalne-seo-5-najlepszych-praktyk</guid>
+  </item>
+  <item>
+    <title>Jakie rozwiązania płatnicze powinienem zaoferować w sklepie internetowym?</title>
+    <link>https://www.prestashop.com/pl/blog/wybor-rozwiazania-platniczego-online</link>
+    <description>Czy zastanawiałeś się kiedyś nad tym, jak ważny jest wybór metody płatności odpowiedniej dla Twojej firmy, a jednocześnie wygodnej dla Twoich klientów?</description>
+     <pubDate>Wed, 09 Oct 2019 17:49:26 +0200</pubDate>
+ <dc:creator>Méguy Solvet</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/wybor-rozwiazania-platniczego-online</guid>
+  </item>
+  <item>
+    <title>Wydanie specjalne na zakończenie roku: Kalendarz e-commerce 2019</title>
+    <link>https://www.prestashop.com/pl/blog/Kalendarz-e-commerce-2019-free</link>
+    <description>Ostatnie 4 miesiące roku mają ogromne znaczenie i naznaczone są kilkoma ważnymi momentami, których nie można zignorować.</description>
+     <pubDate>Mon, 07 Oct 2019 15:39:19 +0200</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/pl/blog/Kalendarz-e-commerce-2019-free</guid>
+  </item>
+  </channel>
+</rss>

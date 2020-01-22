@@ -1,0 +1,102 @@
+#mobile-vermegamenu{
+	box-shadow: 0 0 11px rgba(0,0,0,0.2);
+}
+#mobile-vermegamenu .nav > li {
+	margin: 0px 20px;
+	padding: 0;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+}
+#mobile-vermegamenu .nav > li.more_cates{
+	border-bottom: 0;
+}
+#mobile-vermegamenu .jms-vermegamenu {
+	box-shadow: none;
+	text-align: left;
+}
+#mobile-vermegamenu .nav > li.open a{
+	background: transparent;
+}
+#mobile-vermegamenu .nav > li a i {
+	font-size: 23px;
+	position: relative;
+	top: 3px;
+	padding-right: 15px;
+}
+#mobile-vermegamenu .open > .dropdown-menu {
+	position:static;
+	box-shadow:none;
+	border:0px;
+	width:100%;
+	background: transparent;
+}
+#mobile-vermegamenu .menu-item > .dropdown-menu > li > a {
+	padding-left: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#mobile-vermegamenu .open > .dropdown-menu .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	display: block;
+	box-shadow: unset;
+	padding-top: 0;
+	padding-bottom: 0;
+	transform: unset;
+	width: 100%;
+}
+#mobile-vermegamenu .dropdown-menu{
+	padding-left: 15px;
+	position: relative
+}
+#mobile-vermegamenu .dropdown-menu
+#mobile-vermegamenu .dropdown-menu >  li > a {
+	line-height:35px;
+	padding:3px 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	position: relative;
+}
+#mobile-vermegamenu .dropdown-menu >  li.group > a{
+	padding-left: 0;
+	font-weight: 600;
+}
+#mobile-vermegamenu .dropdown-menu >  li.image > a{
+	display: none;
+}
+#mobile-vermegamenu .dropdown-menu >  li.image p{
+	margin-bottom: 0;
+}
+#mobile-vermegamenu .dropdown-menu > li.image {
+	
+	padding: 10px 0;
+	display: flex;
+	justify-content: flex-start;
+}
+#mobile-vermegamenu li a {
+	color: #333;
+	font-family: "Poppins",serif;
+	font-size: 1em;
+	line-height: 30px;
+	padding: 5.5px 0px;
+	position: relative;
+	text-transform: uppercase;
+}
+#mobile-vermegamenu #jms-megamenu > li > a {
+	text-transform:uppercase;	
+}
+
+#mobile-vermegamenu img{
+	max-width:100%;
+}
+#mobile-vermegamenu li > a em {
+	float:right;
+	font-size:15px;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	margin-top:5px;
+	text-align:center;
+}

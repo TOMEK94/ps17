@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-zone" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="2efd89b3ccc76b0b03a34196fc6d1c8b">
+        <source>Add tag</source>
+        <target>Dodaj tag</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
+        <source>Categories</source>
+        <target>Kategorie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a4806f5d6786661dae21b8e241270433">
+        <source>Categories dewffaul</source>
+        <target>Kategorie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d959bbe25cc020e2db5276cb42927c7c">
+        <source>read more</source>
+        <target>czytaj więcej</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6bc362dbf494c61ea117fe3c71ca48a5">
+        <source>Move</source>
+        <target>Przenieś</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6a5373df703ab2827a4ba7facdfcf779">
+        <source>Add to Wishlist</source>
+        <target>Dodaj do listy życzeń</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b9579941153133f0f1ab68cd0c219cfd">
+        <source>Shipping tax: </source>
+        <target>Podatek od transportu:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f35f7065cc6cb2a7979e3905fb879855">
+        <source> Free</source>
+        <target> darmowy</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

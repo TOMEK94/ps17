@@ -1,0 +1,89 @@
+@mixin icon_dropdown($value){
+	a.dropdown-toggle::after{
+		content: "\f107";
+		font-family: "FontAwesome";
+		padding-left: #{$value}px;
+		@content;
+	}
+}
+
+@mixin btnDefaultHover($home, $color){
+	.home_#{$home} .btn-default{
+		&.active:hover{
+			background-color: #111 !important;
+			border-color: #111 !important;
+		}
+		&:hover, &:focus, &:active{
+			background: #{$color} !important;
+			border-color: #{$color} !important;
+			color: #fff;
+		}
+	}
+}
+
+@mixin bgAndBorderHover($home, $color){
+	.home_#{$home}{
+		.cart-box .btn-shopping:hover,
+		.card.cart-summary .checkout a:hover,
+		.scroll-box-arrows i:hover,
+		.products-list-in-row .ajax-add-to-cart:hover,
+		.products-list-in-row .addToWishlist:hover,
+		.facet-label.active a,
+		#off-canvas-menu .dropdown-menu > li > a::before,
+		#mobile-vermegamenu .dropdown-menu >  li > a::before{
+			background: #{$color} !important;
+			border-color: #{$color} !important;
+		}
+	}
+}
+
+@mixin borderBottomColor($home, $color){
+	.home_#{$home}{
+		#search_filters .facet .facet-title,
+		.title-block h3,
+		.widget-title, .title_block{
+			border-bottom-color: #{$color};
+		}
+	}
+}
+
+@mixin paginationCurrent($home, $color){
+	.home_#{$home} .pagination .current a,
+	.home_#{$home} .pagination a:hover {
+		background-color: #{$color} !important;
+		border-color: #{$color};
+		font-weight: 600;
+	}
+}
+
+@mixin buttonActive($home, $color){
+	.home_#{$home}{
+		.view-mode .button a.active,
+		#off-canvas-menu #_desktop_currency_selector ul li.current a,
+		#footer .addon-title + ul li a:hover::before,
+		.feature-icon i{
+			color: #{$color};
+		}
+	}
+}
+
+@mixin inForBlockActive($home, $color){
+	.home_#{$home} #more_info_block .tabs li a.active{
+		border-bottom: 3px solid #{$color} !important;
+	}
+}
+
+@mixin thumbnailsSelected($home, $color){
+	.home_#{$home} .product-images > li.thumb-container > .thumb.selected,
+	.home_#{$home} .product-images > li.thumb-container > .thumb:hover {
+	    border: 1px solid #{$color};
+	}
+}
+
+@mixin colorItemSize($home, $color){
+	.home_#{$home} .product-variants-item.size input:checked + span::after {
+	    background: #{$color};
+	}
+}
+
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/home-widget.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="c70ca573db586eeed5ca8b56349b0160">
+        <source>Latest Post</source>
+        <target>Latest Post</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/home-widget.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="3adbdb3ac060038aa0e6e6c138ef9873">
+        <source>Category</source>
+        <target>Category</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/home-widget.tpl:87</note>
+      </trans-unit>
+      <trans-unit id="0eceeb45861f9585dd7a97a3e36f85c6">
+        <source>Created</source>
+        <target>Created</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/home-widget.tpl:89</note>
+      </trans-unit>
+      <trans-unit id="ed4832a84ee072b00a6740f657183598">
+        <source>Views</source>
+        <target>Views</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/home-widget.tpl:91</note>
+      </trans-unit>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba">
+        <source>Comments</source>
+        <target>Comments</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/home-widget.tpl:94</note>
+      </trans-unit>
+      <trans-unit id="f7cd902a9a8644c8199c26144d25b747">
+        <source>Dont have any items in this section</source>
+        <target>Dont have any items in this section</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/home-widget.tpl:107</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/sidebar-widget.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
+        <source>Categories</source>
+        <target>Categories</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/sidebar-widget.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="341825a909ae0a19dd9dbea98ef3e021">
+        <source>Recent Posts</source>
+        <target>Recent Posts</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/sidebar-widget.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="69e7df6b9f7404b4007d936978a45c81">
+        <source>Recent Comments</source>
+        <target>Recent Comments</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/sidebar-widget.tpl:89</note>
+      </trans-unit>
+      <trans-unit id="178fde647037235223ac2a188a7106b1">
+        <source>Archives</source>
+        <target>Archives</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsblogwidget/views/templates/hook/sidebar-widget.tpl:102</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

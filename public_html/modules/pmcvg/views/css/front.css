@@ -1,0 +1,225 @@
+.xml-icon {
+display: inline-block;
+margin: 0 auto !important;
+height: 50px;
+width: 50px;
+background: url('../img/xml.png');
+}
+
+.csv-icon {
+display: inline-block;
+margin: 0 auto !important;
+height: 50px;
+width: 50px;
+background: url('../img/csv.png');
+}
+
+.json-icon {
+display: inline-block;
+margin: 0 auto !important;
+height: 50px;
+width: 50px;
+background: url('../img/json.png');
+}
+
+
+.pass-icon {
+	display: block;  
+	margin: 0 auto !important;
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i12.png') no-repeat;
+}
+
+.icon-cvg-1 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i1.png') no-repeat;
+}
+
+.icon-cvg-2 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i2.png') no-repeat;
+}
+
+.icon-cvg-3 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i3.png') no-repeat;
+}
+
+.icon-cvg-4 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i4.png') no-repeat;
+}
+
+.icon-cvg-5 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i5.png') no-repeat;
+}
+
+.icon-cvg-6 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i6.png') no-repeat;
+}
+
+.icon-cvg-7 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i7.png') no-repeat;
+}
+
+.icon-cvg-8 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	width: 50px;
+	background-position-x: center!important;
+	background-position-y: center!important;
+	background: url('../img/i8.png') no-repeat;
+}
+
+.icon-cvg-1 {
+	margin: 0 auto;
+	display: block;  
+	height: 50px;
+	background: url('../img/i1.png') no-repeat;
+}
+
+.adr-icon {
+	display: block;  
+	height: 50px;
+	background: url('../img/i13.png') no-repeat;
+	margin: 0 auto !important;
+	background-position-x: center!important;
+	background-position-y: center!important;
+}
+
+.per-icon {
+	display: block;  
+	margin: 0 auto !important;
+	height: 50px;
+	background: url('../img/i14.png') no-repeat;
+		background-position-x: center!important;
+	background-position-y: center!important;
+}
+
+.pcontainerbox .download,.pcontainerboxexport .download  {
+	display: block;
+	color: #44bdd7;
+}
+
+.privacymanagement ul li span{
+color: #44bdd7;
+font-size: 18px;
+font-weight: bold;
+}
+
+.privacymanagement .btn-primary {
+	margin-top: 20px;
+}
+
+.privacymanagement ul li {
+text-align: center;
+}
+
+.privacymanagement ul li .pcontainer,.privacymanagement .bigcontainer {
+margin-bottom: 1.563rem;
+background: #fff;
+padding: 10px;
+box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+}
+
+.pcontainerbox,.pcontainerboxexport  {
+min-height: 250px;
+}
+
+.privacymanagement ul li .pcontainer .icon{
+display: block;
+color: #44bdd7;
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.privacymanagement ul li .pcontainer .info {
+margin-top: 10px;
+font-size: 16px;
+color: black;
+font-weight: lighter;
+}
+
+.privacymanagement ul li a {
+font-size: 18px;
+}
+
+.pcontainerboxexport {
+	min-height: 50px;
+}
+
+#addtonewslettercvg {
+	margin-top: 0px;
+}
+
+.privacymanagement .button_enable {
+	background-color: #e08f95;
+}
+
+.privacymanagement .button_disable {
+	background-color: #43b754;
+}
+
+.myaccount-link-list li a span p {
+	font-size: 12px;
+	margin-bottom: 0px !important;
+}
+
+.pcontainer {
+	text-align: center;
+}
+
+.link-item2{
+	margin: 10px;
+	background: white;
+	padding: 10px;
+	min-height: 220px;
+}
+
+.link-item{
+	margin: 10px;
+	background: white;
+	padding: 10px;
+}

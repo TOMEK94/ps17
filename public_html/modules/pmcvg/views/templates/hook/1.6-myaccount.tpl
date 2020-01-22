@@ -1,0 +1,1 @@
+	<a class="col-lg-4 col-md-6 col-sm-6 col-xs-12" href="{$link->getModuleLink('pmcvg', 'privacymanagement', array(), true)|escape:'html':'UTF-8'}" title="{l s='Privacy management' mod='pmcvg'}"><span class="link-item"><i class="material-icons">&#xe862;</i><span>{l s='Privacy management' mod='pmcvg'}</span></span></a>

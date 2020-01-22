@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenu_manager/menulist.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="a5e99b6ec9a5c66cd5daa527719e6c2a">
+        <source>Menu List</source>
+        <target>Menu List</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenu_manager/menulist.tpl:33</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="92fbf0e5d97b8afd7e73126b52bdc4bb">
+        <source>Choose a file</source>
+        <target>Choose a file</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="97f014aa339f5b37951f100fb1a086d8">
+        <source>Please select at least one product.</source>
+        <target>Please select at least one product.</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl:91</note>
+      </trans-unit>
+      <trans-unit id="7a8c953dac571371a6351681014d5937">
+        <source>Please set a quantity to add a product.</source>
+        <target>Please set a quantity to add a product.</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl:92</note>
+      </trans-unit>
+      <trans-unit id="2fbbffeb17347d2d997ea3a61c1ceb73">
+        <source>Use a product from the list</source>
+        <target>Use a product from the list</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl:122</note>
+      </trans-unit>
+      <trans-unit id="bcca5b450662c87c9333d5095e2781d9">
+        <source>Do you want to use this product?</source>
+        <target>Do you want to use this product?</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl:141</note>
+      </trans-unit>
+      <trans-unit id="f4d1ea475eaa85102e2b4e6d95da84bd">
+        <source>Confirmation</source>
+        <target>Confirmation</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl:141</note>
+      </trans-unit>
+      <trans-unit id="323a662a33515fa2ab5c406a7572654c">
+        <source>No related product</source>
+        <target>No related product</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl:151</note>
+      </trans-unit>
+      <trans-unit id="c93f9c62b31d9db3a303a7975e743cc6">
+        <source>Please fill product name input field</source>
+        <target>Please fill product name input field</target>
+        <note>Context:
+File: /Applications/MAMP/htdocs/prestashop17/storm/themes/jms_storm/modules/jmsvermegamenu/views/templates/admin/jmsvermegamenuform/helpers/form/form1.tpl:203</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

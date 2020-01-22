@@ -1,0 +1,57 @@
+.topbar .left .addon-box {
+	float: right;
+}
+.topbar .right .addon-box {
+	float: left;
+}
+.topbar .right .addon-box:not(:first-child) {
+	margin-left: 41px;
+	margin-right: 0;
+}
+.topbar .right .addon-box:not(:first-child)::after {
+	right: auto;
+	left: -21px;
+}
+.header .right .addon-box {
+	float: left;
+}
+.header .right #cart_block .text-custom {
+	padding-right: 16px;
+	padding-left: 0;
+}
+.header .right .addon-box:not(:first-child) {
+	margin-left: 40px;
+	margin-right: 0;
+}
+.menu .jms-megamenu .nav > li.home {
+	padding-left: 28px;
+	padding-right: 0;
+}
+.product_tab .addon-title h3 {
+	float: right;
+}
+.product_tab .addon-title .jms-tab {
+	float: left;
+}
+.blog .category-name {
+	left: auto;
+	right: 0;
+}
+.newsletter .form-group .newsletter-btn {
+	border-radius: 3px 0px 0px 3px;
+}
+.footer_t #social_block ul li {
+	margin-left: 7px;
+	margin-right: 0;
+}
+.footer_t .contact .address {
+	padding-right: 0;
+	padding-left: 70px;
+}
+.footer_b .right p {
+	float: left;
+}
+.footer_b .right p img {
+	margin-right: 11px;
+	margin-left: 0;
+}

@@ -1,0 +1,51 @@
+version: "3.2"
+services:
+  php:
+    build: 
+      context: './php/'
+      args:
+       PHP_VERSION: ${PHP_VERSION}
+    restart: always
+    networks:
+      - backend
+    volumes:
+      - "${PROJECT_ROOT}/:/var/www/html/:z"
+    container_name: php
+  apache:
+    build:
+      context: './apache/'
+      args:
+       APACHE_VERSION: ${APACHE_VERSION}
+    restart: always
+    depends_on:
+      - php
+      - mysql
+    networks:
+      - frontend
+      - backend
+    ports:
+      - "80:80"
+    volumes:
+      - "${PROJECT_ROOT}/:/var/www/html/:z"
+      - "${PROJECT_ROOT}/:/var/www/html/img:z"
+      - "${PROJECT_ROOT}/config_files/php.ini:/usr/local/etc/php/php.ini"
+    container_name: apache
+  mysql:
+    image: mysql:${MYSQL_VERSION:-latest}
+    restart: always
+    volumes:
+            - ./dump:/docker-entrypoint-initdb.d
+    networks:
+      - backend
+    environment:
+      MYSQL_ROOT_PASSWORD: o82LoxxDz
+      MYSQL_DATABASE: krulove24_bizele2019db
+      MYSQL_USER: krulove24_bizele2019u
+      MYSQL_PASSWORD: o82LoxxDz
+    container_name: mysql
+    command: mysqld --sql_mode=""
+networks:
+  frontend:
+  backend:
+volumes:
+    data:

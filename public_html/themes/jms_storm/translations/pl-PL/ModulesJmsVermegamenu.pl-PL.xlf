@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-zone" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="a5e99b6ec9a5c66cd5daa527719e6c2a">
+        <source>Menu List</source>
+        <target>Lista menu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="92fbf0e5d97b8afd7e73126b52bdc4bb">
+        <source>Choose a file</source>
+        <target>Wybierz plik</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="97f014aa339f5b37951f100fb1a086d8">
+        <source>Please select at least one product.</source>
+        <target>Proszę wybierz przynajmniej jeden produkt.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7a8c953dac571371a6351681014d5937">
+        <source>Please set a quantity to add a product.</source>
+        <target>Wybierz ilość, aby dodać produkt.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2fbbffeb17347d2d997ea3a61c1ceb73">
+        <source>Use a product from the list</source>
+        <target>Użyj produktu z listy</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bcca5b450662c87c9333d5095e2781d9">
+        <source>Do you want to use this product?</source>
+        <target>Czy chcesz użyć tego produktu?</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f4d1ea475eaa85102e2b4e6d95da84bd">
+        <source>Confirmation</source>
+        <target>Potwierdzenie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="323a662a33515fa2ab5c406a7572654c">
+        <source>No related product</source>
+        <target>Brak pokrewnego produktu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c93f9c62b31d9db3a303a7975e743cc6">
+        <source>Please fill product name input field</source>
+        <target>Proszę wypełnić pole wprowadzania nazwy produktu</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

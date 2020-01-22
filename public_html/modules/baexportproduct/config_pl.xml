@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>baexportproduct</name>
+    <displayName><![CDATA[Export Product to CSV/Excel File]]></displayName>
+    <version><![CDATA[1.0.11]]></version>
+    <description><![CDATA[Export All of Products to CSV/Excel File]]></description>
+    <author><![CDATA[buy-addons]]></author>
+    <tab><![CDATA[migration_tools]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

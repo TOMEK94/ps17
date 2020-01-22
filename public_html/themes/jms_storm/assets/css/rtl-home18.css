@@ -1,0 +1,50 @@
+.topbar .left .addon-box {
+	float: right;
+}
+.topbar .left i {
+	margin-right: 0;
+	margin-left: 9px;
+}
+.topbar .right .addon-box {
+	float: left;
+}
+.topbar .right .addon-box:not(:first-child) {
+	margin-left: 41px;
+	margin-right: 0;
+}
+.topbar .right .addon-box:not(:first-child)::after {
+	right: auto;
+	left: -21px;
+}
+.topbar .right #social_block ul li:not(:first-child) a {
+	margin-right: 15px;
+	margin-left: 0;
+}
+.header .right .addon-box {
+	float: left;
+}
+.header .right #cart_block .text-custom {
+	padding-right: 16px;
+	padding-left: 0;
+}
+.header .right .addon-box:not(:first-child) {
+	margin-left: 25px;
+	margin-right: 0;
+}
+.slides .jms-slide-content {
+	text-align: left;
+}
+.footer_t #social_block ul > li {
+	margin-left: 7px;
+}
+.footer_t .newsletter .form-group .newsletter-btn {
+	border-radius: 3px 0px 0px 3px;
+}
+.footer_t .newsletter .addon-box:nth-child(2) img {
+	margin-left: 17px;
+	margin-right: 0;
+}
+.footer_m .row2 ul li:not(:last-child)::after {
+	right: auto;
+	left: -16px;
+}

@@ -1,0 +1,83 @@
+.topbar .left .addon-box {
+	float: right;
+}
+.topbar .right .languages-info.type2 .flag {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.topbar .right .addon-box:not(:first-child) {
+	margin-left: 40px;
+	margin-right: 0;
+}
+.topbar .right #_desktop_user_info {
+	padding-right: 25px;
+	padding-left: 0;
+}
+.topbar .right #_desktop_user_info .user-info > a::before {
+	right: -25px;
+	left: auto;
+}
+.topbar .right .addon-box {
+	float: left;
+}
+.topbar .right .addon-box:not(:first-child)::after {
+	right: auto;
+	left: -20px;
+}
+.topbar #social_block ul li a{
+	margin-left: 0 !important;
+	margin-right: 15px;
+}
+.header .right .addon-box {
+	float: left;
+}
+.header .right #cart_block .text-custom {
+	padding-right: 12px;
+	padding-left: 0;
+}
+.header .right .addon-box:not(:first-child) {
+	margin-left: 29px;
+	margin-right: 0;
+}
+.menu .jms-megamenu .nav > li.home {
+	padding-right: 0;
+	padding-left: 16px;
+}
+.menu .jms-megamenu .nav {
+	text-align: right;
+}
+.jms-megamenu .menu-align-center.item-fullwidth > .dropdown-menu{
+	right: 0 !important;
+}
+.menu .right .text {
+	padding-right: 17px;
+	padding-left: 0;
+}
+.banner_full .include_content_s{
+	text-align: left;
+	float: left;
+}
+.banner_full .include_content_s .text-1{
+	float: left;
+}
+.footer_t #social_block ul > li {
+	margin-left: 7px;
+}
+.footer_t .newsletter .addon-box:nth-child(2) img {
+	margin-left: 17px;
+	margin-right: 0;
+}
+.footer_t .newsletter .form-group .newsletter-btn {
+	border-radius: 3px 0px 0px 3px;
+}
+.footer_b .right ul {
+	float: left;
+}
+.footer_b .right ul li:not(:last-child)::after {
+	right: auto;
+	left: -18px;
+}
+.footer_b .right ul li {
+	margin-left: 0;
+	margin-right: 31px;
+}

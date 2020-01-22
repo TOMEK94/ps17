@@ -1,0 +1,71 @@
+.topbar .left .addon-box {
+  float: right; }
+
+.topbar .left .addon-box:not(:first-child) {
+  margin-right: 34px;
+  margin-left: 0; }
+
+.topbar .left .addon-box:not(:first-child)::before {
+  left: auto;
+  right: -15px; }
+
+.topbar .right .addon-box {
+  float: left; }
+
+.topbar .right .addon-box:not(:first-child) {
+  margin-left: 41px;
+  margin-right: 0; }
+
+.topbar .right .addon-box:not(:first-child)::after {
+  left: -21px;
+  right: auto; }
+
+.header .right .addon-box {
+  float: left; }
+
+.header .right .addon-box:not(:first-child) {
+  margin-left: 40px;
+  margin-right: 0; }
+
+.header .right .addon-box:nth-child(3) {
+  margin-left: 77px;
+  margin-right: 0; }
+
+.header .right #cart_block .text-custom {
+  padding-right: 16px;
+  padding-left: 0; }
+
+.header .right #jms_ajax_search::after {
+  left: -32px;
+  right: auto; }
+
+.cate_tab .addon-title h3 {
+  float: right; }
+
+.cate_tab .addon-title .jms-tab {
+  float: left; }
+
+.footer_t .contact .storm-headset {
+  padding-left: 20px;
+  padding-right: 0; }
+
+.footer_t .contact .storm-pin {
+  padding-left: 10px;
+  padding-right: 0; }
+
+.footer_t #social_block ul > li {
+  margin-left: 7px; }
+
+.footer_t .row_2 ul li:not(:last-child)::before {
+  left: -2px;
+  right: auto; }
+
+.footer_b .right p {
+  float: left; }
+
+.footer_b .right img {
+  margin-right: 5px; }
+
+#footer .addon-title + ul li a::before {
+  padding-left: 3px;
+  padding-right: 0; }
